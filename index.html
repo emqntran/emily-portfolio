@@ -3,28 +3,63 @@
 <head>
   <title>Emily Tran | Data Science Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 60px; }
-    h1 { color: #333; }
-    .button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 24px;
-      background-color: #007acc;
-      color: white;
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 60px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 40px;
+    }
+
+    .nav-section {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .nav-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-decoration: none;
-      border-radius: 5px;
+      color: #007acc;
+      font-weight: bold;
+      transition: transform 0.2s ease;
+    }
+
+    .nav-link:hover {
+      transform: scale(1.05);
+    }
+
+    .nav-icon {
+      font-size: 32px;
+      margin-bottom: 8px;
     }
   </style>
 </head>
 <body>
-  <h1>Hi, I'm Emily Tran </h1>
-  <p> I'm a Master's student in Data Science at the University of Washington with a background <br>
+  <h1>Hi, I'm Emily Tran</h1>
+  <p>
+    I'm a Master's student in Data Science at the University of Washington with a background <br>
     in Computer Science. I'm an aspiring data scientist who’s curious, driven, and <br>
-    always eager to learn and explore new ideas, tools, and technologies. </p>
-  <a class="button" href="" target="_blank">Home</a>
-  <a class="button" href="" target="_blank">Resume</a>
-  <a class="button" href="" target="_blank">Projects</a>
-  <a class="button" href="" target="_blank">Linkedin</a>
+    always eager to learn and explore new ideas, tools, and technologies.
+  </p>
+
+  <div class="nav-section">
+    <a class="nav-link" href="#"><div class="nav-icon">🏠</div><span>Home</span></a>
+    <a class="nav-link" href="#"><div class="nav-icon">📄</div><span>Resume</span></a>
+    <a class="nav-link" href="#"><div class="nav-icon">📊</div><span>Projects</span></a>
+    <a class="nav-link" href="#"><div class="nav-icon">💼</div><span>LinkedIn</span></a>
+  </div>
 </body>
 </html>
-
