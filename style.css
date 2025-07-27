@@ -1,6 +1,6 @@
 :root {
-  --bg-color: #F1E9E4;
-  --text-color: #BF8988;
+  --bg-color: #FFFFFF;
+  --text-color: #332524;
   --name-color: #731808;
 }
 
@@ -15,7 +15,7 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   gap: 20px;
   background-color: white;
   padding: 15px;
