@@ -1,15 +1,18 @@
 :root {
-  --bg-color: #FFFFFF;
+  --bg-color: #fff;
   --text-color: #332524;
   --name-color: #731808;
 }
 
-body {
+body, .navbar {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: Arial, sans-serif;
-  text-align: center;
   margin: 0;
+}
+
+body {
+  text-align: center;
   padding: 60px;
 }
 
@@ -27,5 +30,5 @@ body {
 }
 
 h1 {
-  color: var(--name-color); 
+  color: var(--name-color);
 }
