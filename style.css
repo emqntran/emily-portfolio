@@ -34,6 +34,10 @@ h1 {
   font-size: 48px;
 }
 
+.portfolio-cover {
+  background-image: url('images/portfolio_cover.png');
+}
+
 .bgImageFull {
     background-image: url(images/resume_image.png);
     height: 3740px;
