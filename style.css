@@ -37,6 +37,11 @@ h1 {
 
 .profile-break {
   background-image: url('images/profile-break-image.jpg');
+  width: 100px;     /* or a percentage like 50% */
+  height: auto;     /* keeps aspect ratio */
+  display: block;
+  margin: 0 auto;   /* centers the image */
+}
 }
 
 .bgImageFull {
