@@ -35,11 +35,11 @@ h1 {
 }
 
 .portfolio-cover {
-  background-image: url('images/portfolio_cover.png');
+  background-image: url('images/PortfolioCover.jpg');
 }
 
 .bgImageFull {
-    background-image: url(images/resume_image.png);
+    background-image: url(images/Emily_Tran_Res.pdf);
     height: 3740px;
     width: 100%;
     background-repeat: no-repeat;
