@@ -17,9 +17,12 @@ body {
   padding: 60px;
 }
 
-h1, h2 {
-  font-family: var(--heading-font);
-  color: var(--header-color);
+.home h1 {
+    font-size: clamp(45px, 12vw, 150px);
+    color: var(--header-color);
+    margin: 0;
+    padding: 0 2vw;
+    font-family: Georgia;
 }
 
 p {
