@@ -35,32 +35,18 @@ h1 {
   font-size: 16px;
 }
 
-.resume-img {
-  width: 60%;
-  max-width: 800px;
-  display: block;
-  margin: 40px auto;
-  height: auto;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.resume-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
 }
 
-.resume-img {
-  width: 60%;
-  max-width: 800px;
-  display: block;
-  margin: 40px auto;
+.resume-container embed {
+  width: 80%;
+  max-width: 900px;
+  height: 1000px;
   border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-
-.resumeScroll {
-  max-width: 100%;
-  height: 800px;
-  overflow: auto;
-  border: 1px solid #ccc;
-  padding: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .footer {
