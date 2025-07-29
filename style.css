@@ -35,12 +35,14 @@ h1 {
   font-size: 16px;
 }
 
-.bgImageFull {
-  background-image: url('images/EmTran-Resume.png');
+.resumeImage {
+  resume-image: url('images/EmTran-Resume.png');
   height: 3740px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh; 
+  width: 80%;
 }
 
 .resumeScroll {
