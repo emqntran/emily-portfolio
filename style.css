@@ -8,6 +8,8 @@
 
 body {
   background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
   margin: 0;
   text-align: left;
   padding: 60px;
@@ -17,12 +19,6 @@ h1 {
   color: var(--header-color);
   font-family: Georgia;
   ont-weight: bold;
-
-}
-
-p {
-  color: var(--text-color);
-  font-family: var(--body-font);
 }
 
 .navbar {
