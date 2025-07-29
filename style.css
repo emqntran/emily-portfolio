@@ -1,7 +1,7 @@
 :root {
   --bg-color: #ffff;
   --text-color: #332524;
-  --name-color: #731808;
+  --header-color: #731808;
   --heading-font: 'Arial', sans-serif;
   --body-font: 'Georgia', serif;
 }
@@ -17,6 +17,16 @@ body {
   padding: 60px;
 }
 
+h1, h2,{
+  font-family: var(--heading-font);
+  color: var(--header-color); 
+}
+
+p {
+  font-family: var(--body-font, Arial, sans-serif);
+  color: var(--text-color); 
+}
+
 .navbar {
   display: flex;
   justify-content: right;
@@ -29,11 +39,6 @@ body {
   color: var(--text-color);
   font-weight: bold;
   font-size: 16px; 
-}
-
-h1 {
-  color: var(--name-color);
-  font-size: 48px;
 }
 
 .profile-break {
@@ -59,14 +64,4 @@ h1 {
   overflow: auto;
   border: 1px solid #ccc;
   padding: 10px;
-}
-
-h1, h2 {
-  font-family: var(--heading-font);
-  color: var(--accent-color);
-}
-
-p {
-  line-height: 1.6;
-  max-width: 700px;
 }
