@@ -58,4 +58,25 @@ h1 {
   border: 1px solid #ccc;
   padding: 10px;
 }
-  
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.contact-info a {
+  margin: 0 10px; 
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.contact-info a img {
+  width: 24px;  
+  height: 24px;
+  vertical-align: middle;
+}
+
+.contact-info a:hover {
+  transform: scale(1.2);
+}
+
