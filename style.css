@@ -6,12 +6,9 @@
   --body-font: 'Georgia', serif;
 }
 
-body, .navbar {
+body {
   background-color: var(--bg-color);
   margin: 0;
-}
-
-body {
   text-align: left;
   padding: 60px;
 }
