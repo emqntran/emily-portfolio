@@ -16,6 +16,8 @@ body {
 h1 {
   color: var(--header-color);
   font-family: Georgia;
+  ont-weight: bold;
+
 }
 
 p {
