@@ -2,12 +2,13 @@
   --bg-color: #ffff;
   --text-color: #332524;
   --name-color: #731808;
+  --heading-font: 'Arial', sans-serif;
+  --body-font: 'Georgia', serif;
 }
 
 body, .navbar {
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: Arial, sans-serif;
   margin: 0;
 }
 
@@ -58,4 +59,14 @@ h1 {
   overflow: auto;
   border: 1px solid #ccc;
   padding: 10px;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--accent-color);
+}
+
+p {
+  line-height: 1.6;
+  max-width: 700px;
 }
