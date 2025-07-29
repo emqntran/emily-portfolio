@@ -35,16 +35,8 @@ h1 {
   font-size: 16px;
 }
 
-.profile-break {
-  background-image: url('images/profile-break-image.jpg');
-  width: 100px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
 .bgImageFull {
-  background-image: url('images/Emily_Tran_Res.pdf');
+  background-image: url('images/EmTran-Resume.png');
   height: 3740px;
   width: 100%;
   background-repeat: no-repeat;
